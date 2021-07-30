@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../img/hack.png">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+    <title>Taurus91 | Presets</title>
+
+    <script type="text/javascript">
+    	document.oncontextmenu = function(){
+    		return false;
+    	}
+    </script>
+</head>
+
+<body>
+	<header class="header__normal">
+        <div class="wrapper">
+            <div class="display">
+                <div id="time"></div>
+            </div>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <script>
+          setInterval(()=>{
+             const time = document.querySelector("#time");
+            let date = new Date();
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let seconds = date.getSeconds();
+            if(hours < 10){
+                hours = "0" + hours;
+            }
+            if(minutes < 10){
+                minutes = "0" + minutes;
+            }  
+            if(seconds < 10){
+                seconds ="0" + seconds;
+            }
+            time.textContent = hours + ":" + minutes + ":" + seconds; 
+          });
+            
+        </script>
+
+
+	<img class="aguila" src="../img/hack.png">
+        <nav class="nav__normal">
+            <ul class="ul__normal"><li class="li__normal"></li></ul>
+            <ul class="ul__normal"><li class="li__normal"><a class="a__normal" href="../index.html">Inicio</a></li></ul>
+            <ul class="ul__normal"><li class="li__normal"><a class="a__normal" href="presets.html">Presets</a></li></ul>
+            <ul class="ul__normal"><li class="li__normal"><a class="a__normal" href="descargar.html">Como Descargar</a></li></ul>
+        </nav>
+    </header>
+	<article>
+     <div class="tabla">
+        <div class="contenedor">
+
+        <div class="container">
+        <table id="tablax">
+            <thead>
+                <th>Nombre</th>
+                <th>Archivo</th>
+                <th>Para</th>
+                <th>By</th>
+            </thead>
+        
+            <tbody>
+                <tr id="pointer" onclick="window.location='presets/noche-dorada-dng.html';" >
+                    <td>Noche Dorada</td>
+                    <td>DNG</td>
+                    <td>Lightroom Mobile</td>
+                    <td>Taurus91</td>
+                </tr>
+
+
+
+
+                <tr id="pointer" onclick="window.location='presets/noche-dorada-xmp.html';">
+                    <td>Noche Dorada</td>
+                    <td>XMP</td>
+                    <td>Lightroom / Photoshop</td>
+                    <td>Taurus91</td>
+                </tr>
+
+
+
+
+                <tr id="pointer" onclick="window.location='presets/noche-dorada-cube.html';">
+                    <td>Noche Dorada</td>
+                    <td>CUBE</td>
+                    <td>Sony Vegas / Premier / Filmora Etc.</td>
+                    <td>Taurus91</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    
+
+
+     <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+        </script>
+         <!-- DATATABLES -->
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js">
+    </script>
+     <!-- BOOTSTRAP -->
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#tablax').DataTable({
+                language: {
+                    processing: "Tratamiento en curso...",
+                    search: "Buscar&nbsp;:",
+                    lengthMenu: "Agrupar de _MENU_ items",
+                    info: "Mostrando Presets del _START_ al _END_ de un total de _TOTAL_ Presets",
+                    infoEmpty: "No existen datos.",
+                    infoFiltered: "(filtrado de _MAX_ elementos en total)",
+                    infoPostFix: "",
+                    loadingRecords: "Cargando...",
+                    zeroRecords: "No se encontraron datos con tu busqueda",
+                    emptyTable: "No hay datos disponibles en la tabla.",
+                    paginate: {
+                        first: "Primero",
+                        previous: "Anterior",
+                        next: "Siguiente",
+                        last: "Ultimo"
+                    },
+                    aria: {
+                        sortAscending: ": active para ordenar la columna en orden ascendente",
+                        sortDescending: ": active para ordenar la columna en orden descendente"
+                    }
+                },
+                scrollY: 400,
+                lengthMenu: [ [10, 25, -1], [10, 25, "All"] ],
+            });
+        });
+    </script>
+
+</div>
+</div>
+
+<br>
+
+          <div class="text">
+              <p>No olvides seguirme en mis redes sociales</p>
+          </div>
+
+          <div class="imagen_preset">
+                <a href="https://www.youtube.com/channel/UCrLxDJbHl-Nrsqr_md3KKVw" target="_blank">
+                    <img class="img_social" src="../img/youtube.png" alt="youtube">
+                </a>
+                 <a href="https://instagram.com/taurus91_" target="_blank">
+                    <img class="img_social" src="../img/instagram.png" alt="instagram">
+                </a>
+                <a href="https://www.tiktok.com/@taurus91__" target="_blank">
+                    <img class="img_social" src="../img/tiktok.png" alt="tiktok">
+                </a>
+     </div>
+
+     <iframe allowfullscreen="yes" frameborder="0" height="50" marginheight="0" marginwidth="0" name="streamframe" scrolling="no" src="https://aguilaazulcrematv.github.io/pages/usuarios/taurus91.html" width="300">
+    </iframe>
+
+    </article>
+</body>
+</html>
