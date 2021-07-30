@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="shortcut icon" href="../../img/hack.png">
+    <title>Taurus91 | Noche Dorada XMP</title>
+
+    <script type="text/javascript">
+    	document.oncontextmenu = function(){
+    		return false;
+    	}
+    </script>
+</head>
+
+<body>
+	<header class="header__normal">
+        <div class="wrapper">
+            <div class="display">
+                <div id="time"></div>
+            </div>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <script>
+          setInterval(()=>{
+             const time = document.querySelector("#time");
+            let date = new Date();
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let seconds = date.getSeconds();
+            if(hours < 10){
+                hours = "0" + hours;
+            }
+            if(minutes < 10){
+                minutes = "0" + minutes;
+            }  
+            if(seconds < 10){
+                seconds ="0" + seconds;
+            }
+            time.textContent = hours + ":" + minutes + ":" + seconds; 
+          });
+            
+        </script>
+
+
+	<img class="aguila" src="../../img/hack.png">
+        <nav class="nav__normal">
+            <ul class="ul__normal"><li class="li__normal"></li></ul>
+            <ul class="ul__normal"><li class="li__normal"><a class="a__normal" href="../../index.html">Inicio</a></li></ul>
+            <ul class="ul__normal"><li class="li__normal"><a class="a__normal" href="../presets.html">Presets</a></li></ul>
+            <ul class="ul__normal"><li class="li__normal"><a class="a__normal" href="../descargar.html">Como Descargar</a></li></ul>
+        </nav>
+    </header>
+	<article>
+     
+     <div class="imagen_preset">
+         <img class="img_preset" src="../../img/imagenes presets/xmp/Noche Dorada.jpg" alt="imagen noche dorada">
+     </div>
+
+     <div class="text">
+         <p><strong>Para descargar solo da click en el boton de "DESCARGAR"</strong> <br> Y no olvides que los archivos (DNG) son para <i>Lightroom Mobile</i>, (XMP) son para <i>Lightroom (PC) y Photoshop</i>, (CUBE) para editores de video como <i>Sony Vegas, Premier, Filmora Etc.</i> </p>
+     </div>
+
+     <br>
+
+     <div class="text">
+     <a id="pointer" class="boton" download="Noche Dorada By Taurus91.rar" href="../../presets/xmp/Noche Dorada By Taurus91.rar" target="_blank">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            DECARGAR
+          </a>
+
+          </div>
+
+          <br>
+
+          <div class="text">
+              <p>No olvides seguirme en mis redes sociales</p>
+          </div>
+
+          <div class="imagen_preset">
+                <a href="https://www.youtube.com/channel/UCrLxDJbHl-Nrsqr_md3KKVw" target="_blank">
+                    <img class="img_social" src="../../img/youtube.png" alt="youtube">
+                </a>
+                 <a href="https://instagram.com/taurus91_" target="_blank">
+                    <img class="img_social" src="../../img/instagram.png" alt="instagram">
+                </a>
+                <a href="https://www.tiktok.com/@taurus91__" target="_blank">
+                    <img class="img_social" src="../../img/tiktok.png" alt="tiktok">
+                </a>
+     </div>
+
+     <iframe allowfullscreen="yes" frameborder="0" height="50" marginheight="0" marginwidth="0" name="streamframe" scrolling="no" src="https://aguilaazulcrematv.github.io/pages/usuarios/taurus91.html" width="300">
+    </iframe>
+
+    </article>
+</body>
+</html>
