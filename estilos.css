@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
-html,
+
 body {
   height: 100%;
   margin: 0;
@@ -12,10 +12,10 @@ body {
 }
 .time {
   color: #fff;
-  font-size: 6em;
+  font-size: 1em;
 }
 .label {
-  font-size: 2em;
+  font-size: .5em;
   display: block;
   color: #b4b4b4;
 }
