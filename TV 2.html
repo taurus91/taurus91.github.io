@@ -1,0 +1,21 @@
+
+<body bgcolor='black' style='margin:0' oncontextmenu='return false' onkeydown='return false'>
+<script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<div id="player"></div>
+<script type="text/javascript">
+        var player = new Clappr.Player({
+        source: "http://cdn.boxter.live:8081/DEP/TDN54654548/playlist.m3u8",
+        parentId: "#player",
+        mediacontrol: {seekbar: "#1F8561", buttons: "#1F8561"},
+        preload: "auto",
+        autoPlay: "true",
+        mute: "true",
+        width: "100%",
+        height: "100%",
+        strings: {
+        "en": {
+        'live': 'LIVE - AGUILAAZULCREMATV'},
+        },
+        });
+</script>
