@@ -104,7 +104,7 @@ function horaHuso(huso,formato){
 		if(elements[i].className=='t'){
 			var b = new Date(mi_array[i]);
 
-			b.setMinutes(b.getMinutes()-(60-huso));   //<!-- Cambiar sÃ³lo aquÃ­ para horario de verano (120) e invierno (60)
+			b.setMinutes(b.getMinutes()-(-360-huso));   //<!-- Cambiar sÃ³lo aquÃ­ para horario de verano (120) e invierno (60)
 			if(formato=="AMPM"){
 				elements[i].innerHTML=formatoAMPM(b);
 			}else{
