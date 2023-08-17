@@ -1,58 +1,58 @@
 const eventos = [
     {
       id: 'evento1',
-      horaInicio: { horas: 13, minutos: 30, am: false },
-      horaFin: { horas: 15, minutos: 35, am: false }
+      horaInicio: { horas: 9, minutos: 0, am: false },
+      horaFin: { horas: 11, minutos: 5, am: false }
     },
     {
       id: 'evento2',
-      horaInicio: { horas: 13, minutos: 30, am: false },
-      horaFin: { horas: 15, minutos: 35, am: false }
+      horaInicio: { horas: 12, minutos: 0, am: false },
+      horaFin: { horas: 14, minutos: 5, am: false }
     },
      {
       id: 'evento3',
-      horaInicio: { horas: 16, minutos: 0, am: false },
-      horaFin: { horas: 18, minutos: 5, am: false }
+      horaInicio: { horas: 12, minutos: 0, am: false },
+      horaFin: { horas: 14, minutos: 5, am: false }
     },
     {
       id: 'evento4',
-      horaInicio: { horas: 16, minutos: 0, am: false },
-      horaFin: { horas: 18, minutos: 5, am: false }
+      horaInicio: { horas: 13, minutos: 0, am: false },
+      horaFin: { horas: 15, minutos: 5, am: false }
     },
     {
       id: 'evento5',
-      horaInicio: { horas: 16, minutos: 0, am: false },
-      horaFin: { horas: 18, minutos: 5, am: false }
+      horaInicio: { horas: 14, minutos: 15, am: false },
+      horaFin: { horas: 16, minutos: 20, am: false }
     },
     {
       id: 'evento6',
-      horaInicio: { horas: 17, minutos: 30, am: false },
-      horaFin: { horas: 19, minutos: 35, am: false }
+      horaInicio: { horas: 15, minutos: 30, am: false },
+      horaFin: { horas: 17, minutos: 35, am: false }
     },
      {
       id: 'evento7',
-      horaInicio: { horas: 18, minutos: 30, am: false },
-      horaFin: { horas: 20, minutos: 35, am: false }
+      horaInicio: { horas: 17, minutos: 0, am: false },
+      horaFin: { horas: 20, minutos: 5, am: false }
     },
     {
       id: 'evento8',
-      horaInicio: { horas: 19, minutos: 6, am: false },
-      horaFin: { horas: 21, minutos: 10, am: false }
+      horaInicio: { horas: 18, minutos: 0, am: false },
+      horaFin: { horas: 20, minutos: 5, am: false }
     },
     {
       id: 'evento9',
-      horaInicio: { horas: 21, minutos: 0, am: false },
-      horaFin: { horas: 23, minutos: 5, am: false }
+      horaInicio: { horas: 18, minutos: 0, am: false },
+      horaFin: { horas: 20, minutos: 5, am: false }
     },
     {
       id: 'evento10',
-      horaInicio: { horas: 21, minutos: 10, am: false },
-      horaFin: { horas: 23, minutos: 15, am: false }
+      horaInicio: { horas: 19, minutos: 30, am: false },
+      horaFin: { horas: 21, minutos: 35, am: false }
     },
      {
       id: 'evento11',
-      horaInicio: { horas: 20, minutos: 30, am: false },
-      horaFin: { horas: 22, minutos: 35, am: false }
+      horaInicio: { horas: 20, minutos: 0, am: false },
+      horaFin: { horas: 22, minutos: 5, am: false }
     },
     {
       id: 'evento12',
