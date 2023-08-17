@@ -101,7 +101,7 @@ ul ul {
 
 .menu>li>a:before {
     content: '';
-    background-image: url(sprite3.png?5);
+    background-image: url(sprite.png?5);
     background-repeat: no-repeat;
     font-size: 36px;
     height: 1em;
@@ -366,7 +366,7 @@ ul ul {
     background-position: -74 -645px
 }
 
-.menu>li>a .t {
+.menu>li>a span {
     font-size: .95em;
     display: inline-block;
     position: absolute;
@@ -441,59 +441,4 @@ div.sombreada_css3 {
     box-shadow: 0px 1px 1px #333;
     -webkit-box-shadow: 0px 1px 1px #333;
     -moz-box-shadow: 0px 1px 1px #333;
-}
-
-
-
-.live .live-indicator {
-    font-family: 'Roboto', sans-serif;
-    background: #ea2429;
-    color: #fff;
-    padding: 6px 7px;
-    line-height: 1;
-    border-radius: 6px;
-    text-transform: uppercase;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 12px;
-    font-weight: bold;
-    width: auto;
-}
-
-.live .live-indicator .blink {
-    animation: blinker 1s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
-    font-size: 10px;
-    margin-right: 5px;
-    vertical-align: baseline;
-}
-
-@keyframes blinker {
-    from {
-        opacity: 1;
-    }
-
-    to {
-        opacity: 0;
-    }
-}
-
-.menu>li>a .info {
-    font-size: .857em;
-    display: inline-block;
-    position: absolute;
-    right: 1em;
-    top: 50%;
-    background: #fff;
-    border: 1px solid #d0d0d3;
-    line-height: 1em;
-    height: 1em;
-    padding: .4em .7em;
-    margin: -.9em 0 0;
-    color: #000;
-    text-indent: 0;
-    text-align: center;
-    -webkit-border-radius: .769em;
-    -moz-border-radius: 769em;
-    border-radius: 769em;
-    text-shadow: 0px 0px 0px rgba(255, 255, 255, .01)
 }
