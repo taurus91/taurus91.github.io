@@ -42,5 +42,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 2000);
     });
 
+    // Limpiar formulario cuando la página se carga desde caché
+window.addEventListener('pageshow', function(event) {
+    if (event.persisted) {
+        document.getElementById('horrorForm').reset();
+    }
+});
+
+// Limpiar campos después del envío exitoso
+document.getElementById('horrorForm').addEventListener('submit', function() {
+    setTimeout(() => {
+        this.reset();
+    }, 1000);
+});
+
     createSkulls();
 });
