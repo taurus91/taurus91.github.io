@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         
         // Sonido personalizado (MODIFICAR AQUÍ)
-        const audio = new Audio('https://ia601709.us.archive.org/10/items/bass_20250213/bass.wav');
+        const audio = new Audio('https://taurus91.github.io/contacto/sounds/bass.wav');
         audio.play();
 
         // Mostrar confirmación
